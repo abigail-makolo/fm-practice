@@ -1,0 +1,112 @@
+body {
+  width: 100%;
+  background-color: #e6eff6;
+  font-size: 16px;
+  color: hsl(218, 22%, 67%);
+  font-family: "Karla";
+}
+
+.card {
+  width: 45%;
+  background-color: #fff;
+  box-shadow: 4px 5px 15px #cad2d9;
+  margin: 10% auto;
+  border-radius: 5px;
+}
+
+.container {
+  padding: 20px 35px;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.card-top {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.card-top span {
+  color: hsl(71, 73%, 54%);
+  font-size: 18px;
+}
+
+p {
+  margin-top: 10px;
+  line-height: 24px;
+}
+
+.card-bottom {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-bottom .first, .second {
+  background-color: hsl(179, 62%, 43%);
+  width: 50%;
+  color: #fff;
+  flex: auto;
+}
+
+.card-bottom .first {
+  border-radius: 0px 0px 0px 5px;
+}
+
+.card-bottom .second {
+  border-radius: 0px 0px 5px 0px;
+  opacity: 0.8;
+}
+
+h2 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 13px;
+  line-height: 21px;
+  color: hsl(204, 43%, 93%);
+}
+
+.price {
+  font-size: 28px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.price-caption {
+  color: #76cdd2;
+  padding-left: 5px;
+  font-size: 14px;
+}
+
+.first p {
+  margin-top: 5px;
+}
+
+.btn-signup {
+  height: 50px;
+  line-height: 50px;
+  border-radius: 5px;
+  background-color: hsl(71, 73%, 54%);
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  margin-top: 30px;
+  margin-bottom:  15px;
+  text-align: center;
+}
+
+.btn-signup:hover {
+  transition: all 0.5s;
+  box-shadow: 1px 5px 15px #1e8a8a;
+}
